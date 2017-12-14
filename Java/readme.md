@@ -296,3 +296,8 @@ TOTPRequest(paytmTOTPTestUrl);
 }
 
 }			
+
+
+// Github url for java checksum jar.
+
+https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Java
