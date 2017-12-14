@@ -5,13 +5,13 @@
 Dictionary<string, string> innerrequest = new Dictionary<string, string>();
 Dictionary<string, string> outerrequest = new Dictionary<string, string>();
 
-string merchant_guid = "6536608e-77b8-473f-9334-2966f1779a0a";
+string merchant_guid = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx";
 
 
 innerrequest.Add("totalAmount", "0.01");
 innerrequest.Add("currencyCode", "INR");
-innerrequest.Add("merchantGuid", "6536608e-77b8-473f-9334-2966f1779a0a");
-innerrequest.Add("merchantOrderId", "TEST_1234699999993645dd9999");
+innerrequest.Add("merchantGuid", "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx");
+innerrequest.Add("merchantOrderId", "TEST_12346999d9999");
 //innerrequest.Add("industryType", "Retail");
 innerrequest.Add("posId", "POS_12");
 innerrequest.Add("comment", "Test");
@@ -44,9 +44,9 @@ String url = "https://trust.paytm.in/wallet-web/v7/withdraw";
 System.Net.HttpWebRequest request = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
 
 request.Headers.Add("mid", merchant_guid);
-request.Headers.Add("phone", "9845599807");
-// request.Headers.Add("code", "28100502qj98r4nszCA0432d");
-request.Headers.Add("otp", "437229");
+request.Headers.Add("phone", "xxxxxxxxxx");
+// request.Headers.Add("code", "xxxxxxxxx");
+request.Headers.Add("otp", "xxxxxx");
 request.Headers.Add("Checksumhash", Check);
 request.Headers.Add("ContentType", "application/json");
 request.Method = "POST";
