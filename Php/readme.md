@@ -47,5 +47,8 @@ echo $output;
 
 ?>
 
+// Github url for checksum php file.
+
+https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP/tree/master/lib
 
 
